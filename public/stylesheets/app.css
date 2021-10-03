@@ -19,7 +19,7 @@ header {
       border-radius: 50%;
   }
 
-  body {
+  *body {
       font-family: 'Open Sans', sans-serif;
   }
 
