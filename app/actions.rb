@@ -3,6 +3,7 @@ helpers do
     User.find_by(id:session[:user_id])
   end
 end
+
 get '/' do
   @finstagram_posts = FinstagramPost.order(created_at: :desc)
   erb(:index)
