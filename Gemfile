@@ -3,7 +3,7 @@ ruby "2.7.4"
 
 gem 'rake'
 gem 'activesupport'
-gem 'activerecord'
+gem 'activerecord', '<6.1.0'
 gem 'bcrypt'
 
 gem 'sinatra'
