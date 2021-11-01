@@ -8,7 +8,7 @@ configure do
     }
   else
 
-    db_url = ''
+    db_url = 'https://www.google.com/search?q=postgres%3A%2F%2Fqzngbwwlvvnmsp%3A57883cd5ce8a4c78e13321f85e1e425552bcda035e533784ba0231513455c18b%40ec2-35-169-43-5.compute-1.amazonaws.com%3A5432%2Fd1ljbd8h69dad4&rlz=1C1CHBF_enCA971CA971&oq=postgres%3A%2F%2Fqzngbwwlvvnmsp%3A57883cd5ce8a4c78e13321f85e1e425552bcda035e533784ba0231513455c18b%40ec2-35-169-43-5.compute-1.amazonaws.com%3A5432%2Fd1ljbd8h69dad4&aqs=chrome..69i57j69i58.665j0j7&sourceid=chrome&ie=UTF-8'
     db = URI.parse(ENV['DATABASE_URL'] || db_url)
     set :database, {
       adapter: "postgresql",
